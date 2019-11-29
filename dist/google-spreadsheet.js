@@ -4,7 +4,7 @@ const googleapis_1 = require("googleapis");
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
 class Sheet {
     constructor(credential) {
-        const { client_id: clientId, client_secret: clientSecret, redirect_uris: redirectUris } = credential.installded;
+        const { client_id: clientId, client_secret: clientSecret, redirect_uris: redirectUris, } = credential.installed;
         this.oAuth2Client = new googleapis_1.google.auth.OAuth2(clientId, clientSecret, redirectUris[0]);
     }
     setToken(token) {

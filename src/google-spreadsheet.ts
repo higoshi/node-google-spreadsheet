@@ -14,7 +14,7 @@ interface GoogleCreadentialInstalled {
 }
 
 interface GoogleCredential {
-  installded: GoogleCreadentialInstalled;
+  installed: GoogleCreadentialInstalled;
 }
 
 export class Sheet {
@@ -25,8 +25,8 @@ export class Sheet {
     const {
       client_id: clientId,
       client_secret: clientSecret,
-      redirect_uris: redirectUris
-    } = credential.installded;
+      redirect_uris: redirectUris,
+    } = credential.installed;
 
     this.oAuth2Client = new google.auth.OAuth2(clientId, clientSecret, redirectUris[0]);
   }

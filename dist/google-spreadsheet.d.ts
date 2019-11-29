@@ -10,7 +10,7 @@ interface GoogleCreadentialInstalled {
     redirect_uris: string[];
 }
 interface GoogleCredential {
-    installded: GoogleCreadentialInstalled;
+    installed: GoogleCreadentialInstalled;
 }
 export declare class Sheet {
     private oAuth2Client;
