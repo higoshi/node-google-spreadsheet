@@ -6,6 +6,9 @@
   "files": [
     "dist/"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/google-spreadsheet.js"
