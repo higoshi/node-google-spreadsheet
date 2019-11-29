@@ -7,12 +7,14 @@
     "dist/"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node dist/google-spreadsheet.js"
   },
   "repository": "git@github.com:higoshi/node-google-spreadsheet.git",
-  "author": "higoshi <h33je5sg@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
+    "@types/node": "^12.12.14",
+    "google-auth-library": "^5.5.1",
+    "googleapis": "^45.0.0",
     "typescript": "^3.7.2"
   }
 }
