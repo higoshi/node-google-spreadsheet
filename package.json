@@ -1,5 +1,5 @@
 {
-  "name": "node-google-spreadsheet",
+  "name": "@higoshi/node-google-spreadsheet",
   "version": "1.0.0",
   "main": "dist/google-spreadsheet.js",
   "types": "dist/google-spreadsheet.d.ts",
